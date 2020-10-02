@@ -1,0 +1,34 @@
+// ReSharper disable InconsistentNaming
+namespace Dodo.ISO4217
+{
+    using System;
+    using System.ComponentModel;
+    using System.Collections.Generic;
+
+    // Don't edit it manually!
+    // This class is automatically generated!
+    // Created at {%DATETIME%}
+    public static class Currency
+    {
+        public enum Code
+        {
+{%CODES%}
+        }
+
+        private static readonly IReadOnlyDictionary<int, string> Names = new Dictionary<int, string>(180)
+        {
+{%NAMES%}
+        };
+
+        public static string GetNameByCode(int code) => 
+            Names[code];
+
+        private static readonly IReadOnlyDictionary<int, int> MinorUnits = new Dictionary<int, int>(180)
+        {
+{%MINOR_UNITS%}
+        };
+
+        public static int GetMinorUnitsByCode(int code) => 
+            MinorUnits[code];
+    }
+}

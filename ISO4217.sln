@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO4217.Generator", "ISO4217.Generator\ISO4217.Generator.csproj", "{67649A32-3F28-4C9D-9B19-E7711A6D34FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO4217", "ISO4217\ISO4217.csproj", "{F80CA32B-5082-4E86-8620-CC16EBA081FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO4217.UnitTests", "ISO4217.UnitTests\ISO4217.UnitTests.csproj", "{4E995588-8D5C-415A-B74D-BF8BDFBCB9FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67649A32-3F28-4C9D-9B19-E7711A6D34FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67649A32-3F28-4C9D-9B19-E7711A6D34FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67649A32-3F28-4C9D-9B19-E7711A6D34FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67649A32-3F28-4C9D-9B19-E7711A6D34FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80CA32B-5082-4E86-8620-CC16EBA081FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80CA32B-5082-4E86-8620-CC16EBA081FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80CA32B-5082-4E86-8620-CC16EBA081FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80CA32B-5082-4E86-8620-CC16EBA081FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E995588-8D5C-415A-B74D-BF8BDFBCB9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E995588-8D5C-415A-B74D-BF8BDFBCB9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E995588-8D5C-415A-B74D-BF8BDFBCB9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E995588-8D5C-415A-B74D-BF8BDFBCB9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

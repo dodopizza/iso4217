@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Dodo.ISO4217</PackageId>
+        <Version>0.0.1-aplha1</Version>
+        <RootNamespace>Dodo.ISO4217</RootNamespace>
+        <AssemblyName>Dodo.ISO4217</AssemblyName>
+    </PropertyGroup>
+</Project>
