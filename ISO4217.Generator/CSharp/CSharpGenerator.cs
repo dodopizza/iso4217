@@ -18,7 +18,7 @@ namespace ISO4217.Generator.CSharp
             var projContent = projTemplate.Replace("<Version></Version>", $"<Version>{version}</Version>");
             await File.WriteAllTextAsync(nugetDir + $"/{projFilename}", projContent);
 
-            const string extFilename = "CountryExtensions.cs";
+            const string extFilename = "CurrencyExtensions.cs";
             var extContent = await File.ReadAllTextAsync($"{templatesDir}/Nuget/{extFilename}.txt");
             await File.WriteAllTextAsync(nugetDir + $"/{extFilename}", extContent);
         }
