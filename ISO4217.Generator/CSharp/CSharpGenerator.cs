@@ -13,7 +13,7 @@ namespace ISO4217.Generator.CSharp
             string templatesDir,
             string nugetDir)
         {
-            const string projFilename = "ISO3166.csproj";
+            const string projFilename = "ISO4217.csproj";
             var projTemplate = await File.ReadAllTextAsync($"{templatesDir}/Nuget/{projFilename}.txt");
             var projContent = projTemplate.Replace("<Version></Version>", $"<Version>{version}</Version>");
             await File.WriteAllTextAsync(nugetDir + $"/{projFilename}", projContent);

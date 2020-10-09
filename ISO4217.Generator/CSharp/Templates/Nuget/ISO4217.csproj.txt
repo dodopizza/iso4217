@@ -29,8 +29,8 @@
         <Authors>Dodo Pizza</Authors>
         <Company>Dodo Pizza</Company>
         <Description>Currency codes as enums.</Description>
-        <RepositoryUrl>https://github.com/dodopizza/iso3166</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/dodopizza/iso3166</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/dodopizza/iso4217</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/dodopizza/iso4217</PackageProjectUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>Copyright 2020 Dodo Pizza</Copyright>
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
