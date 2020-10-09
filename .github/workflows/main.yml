@@ -1,0 +1,27 @@
+name: Main
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  csharp:
+    name: C#
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Generate nuget
+        run: |
+          dotnet run -c Release -p ./ISO4217.Generator
+
+      - name: Run tests
+        run: |
+          dotnet test ./Output/CSharp/ISO4217.UnitTests
+
+      - name: Push to nuget
+        run: |
+          dotnet pack -c Release ./Output/CSharp/ISO4217 --output ./artifact
+          cd ./artifact
+          dotnet nuget push "*.nupkg" -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }} --skip-duplicate

@@ -6,22 +6,22 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="Templates\Class.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      </Content>
-      <Content Include="Templates\Code.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      </Content>
-      <Content Include="Templates\MinorUnit.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      </Content>
-      <Content Include="Templates\Name.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      </Content>
+        <Content Include="CSharp\**\*.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+        </Content>
+        <Content Include="..\dodopizza-logo.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+        </Content>
+        <Content Include="..\LICENSE">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+        </Content>
+        <Content Include="..\README.md">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+        </Content>
     </ItemGroup>
 
 </Project>

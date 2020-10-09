@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Version></Version>
+        <RootNamespace>Dodo.ISO4217</RootNamespace>
+        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\dodopizza-logo.png">
+            <PackagePath>\</PackagePath>
+            <Pack>true</Pack>
+            <Link>dodopizza-logo.png</Link>
+        </None>
+        <None Include="..\LICENSE">
+            <PackagePath>\</PackagePath>
+            <Pack>true</Pack>
+            <Link>LICENSE</Link>
+        </None>
+        <None Include="..\README.md">
+            <PackagePath>\</PackagePath>
+            <Pack>true</Pack>
+            <Link>README.md</Link>
+        </None>
+    </ItemGroup>
+    <PropertyGroup Label="nuspec">
+        <PackageId>Dodo.ISO4217</PackageId>
+        <AssemblyName>Dodo.ISO4217</AssemblyName>
+        <AssemblyTitle>Dodo.ISO4217</AssemblyTitle>
+        <Authors>Dodo Pizza</Authors>
+        <Company>Dodo Pizza</Company>
+        <Description>Currency codes as enums.</Description>
+        <RepositoryUrl>https://github.com/dodopizza/iso3166</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/dodopizza/iso3166</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>Copyright 2020 Dodo Pizza</Copyright>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PackageIcon>dodopizza-logo.png</PackageIcon>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>iso4217 iso 4217 currency currencies code codes</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+    </PropertyGroup>
+</Project>
